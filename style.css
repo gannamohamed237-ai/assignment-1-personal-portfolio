@@ -1,0 +1,267 @@
+* {
+  font-family: "IBM Plex Sans Arabic", sans-serif;
+}
+body {
+  background-color: #f2f2f2;
+}
+.hero {
+  background-color: #18487b;
+  text-align: center;
+  padding: 30px;
+  border-radius: 20px;
+  width: 70%;
+  margin-left: 15%;
+  margin-top: 50px;
+}
+.hero h1 {
+  color: white;
+  font-size: 60px;
+  margin-bottom: 20px;
+}
+.hero p {
+  color: #81c6e9;
+  font-size: 24px;
+  margin-bottom: 30px;
+}
+
+.navigation {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 30px;
+}
+
+.navigation a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  padding: 16px 22px;
+  border: 2px solid #6081a4;
+  background-color: #275485;
+  border-radius: 40px;
+}
+.About-me {
+  background-color: white;
+  border-radius: 20px;
+  margin-top: 50px;
+  width: 73%;
+  margin-left: 15%;
+}
+
+.About-me h2 {
+  color: #18487b;
+  font-size: 30px;
+  padding: 30px 0 0 20px;
+  font-weight: 600;
+}
+.About-me hr {
+  border: 0.5px solid #c3e0ee;
+  margin: 0 10px;
+}
+
+.About-me img {
+  width: 16%;
+  border-radius: 50%;
+  margin: 10px;
+  padding-left: 20px;
+  margin-bottom: 20px;
+}
+.abou-content {
+  display: flex;
+  align-items: center;
+  margin-top: 50px;
+}
+.content {
+  font-size: 25px;
+  margin-left: 20px;
+  margin-bottom: 50px;
+}
+.github-button {
+  background-color: #0b65ad;
+  color: white;
+  padding: 20px 30px;
+  border-radius: 15px;
+  text-decoration: none;
+  font-size: 20px;
+}
+.skills {
+  background-color: white;
+  border-radius: 20px;
+  margin-top: 50px;
+  width: 73%;
+  margin-left: 15%;
+  padding-bottom: 50px;
+}
+.skills h2 {
+  color: #18487b;
+  font-size: 30px;
+  padding: 30px 0 0 20px;
+  font-weight: 600;
+}
+.skills hr {
+  border: 0.5px solid #c3e0ee;
+  margin: 0 10px;
+}
+.skills-description {
+  font-size: 20px;
+  margin: 30px 20px 20px 30px;
+}
+
+.skill-card {
+  background-color: #f8fcfe;
+  border-radius: 20px;
+  padding: 20px;
+  margin: 20px;
+  border: 2px solid #d9e7f4;
+  display: inline-block;
+  width: 200px;
+  height: 150px;
+}
+.skill-card h3 {
+  color: #4d78a6;
+  font-size: 25px;
+  margin-bottom: 30px;
+}
+
+.skill-card p {
+  color: #0a0a0a;
+  font-size: 20px;
+}
+
+/* ===== Experience Section ===== */
+.experience {
+  background-color: white;
+  padding: 30px 23px 38px;
+  margin-top: 20px;
+  border-radius: 15px;
+  width: 71%;
+  margin-left: 15%;
+}
+
+.experience h2 {
+  color: #18487b;
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+.experience hr {
+  border: none;
+  height: 1px;
+  background-color: #dcecff;
+  margin-bottom: 20px;
+}
+
+.experience-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.experience-card {
+  background-color: #f7f9fc;
+  border: 1px solid #e2eaf4;
+  border-left: 4px solid #0874c9;
+  border-radius: 12px;
+  padding: 20px 24px;
+}
+
+.experience-header {
+  display: flex;
+  margin-bottom: 18px;
+}
+
+.experience-image {
+  width: 4%;
+  height: 25%;
+  border: 1px solid #d5e5ff;
+  border-radius: 12px;
+  background-color: white;
+  padding: 10px;
+}
+
+.experience-info h3 {
+  color: #25364d;
+  font-size: 20px;
+  margin: 6px 0 20px;
+  padding-left: 20px;
+}
+
+.experience-info h4 {
+  color: #0874c9;
+  font-size: 17px;
+  margin-bottom: 17px;
+  padding-left: 20px;
+}
+
+.experience-date {
+  color: #25364d;
+  font-size: 17px;
+  padding-left: 20px;
+}
+
+.experience-description {
+  color: #25364d;
+  font-size: 20px;
+}
+
+.contact {
+  background-color: #1e4e7e;
+  color: white;
+  padding: 45px 33px;
+  margin-top: 20px;
+  border-radius: 15px;
+  width: 70%;
+  margin-left: 15%;
+}
+
+.contact h2 {
+  font-size: 34px;
+  margin-bottom: 22px;
+}
+
+.contact hr {
+  border: 1px solid #fff8f8;
+
+  background-color: rgba(255, 255, 255, 0.2);
+  margin-bottom: 32px;
+}
+
+.contact p {
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+.contact-links {
+  display: flex;
+  gap: 20px;
+}
+
+.contact-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  padding: 19px 22px;
+  background-color: #ffffff14;
+  border: 1px solid #ffffff33;
+  border-radius: 13px;
+}
+
+.footer {
+  background-color: #071b35;
+  color: white;
+  text-align: center;
+  padding: 52px 20px;
+  border-radius: 15px;
+  margin-top: 20px;
+  width: 71%;
+  margin-left: 15%;
+}
+
+.footer p {
+  font-size: 20px;
+}
+
+.footer span {
+  color: #64baff;
+  font-weight: bold;
+}
